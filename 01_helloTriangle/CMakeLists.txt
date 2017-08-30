@@ -1,4 +1,4 @@
-project(01_moreInit)
+project(01_helloTriangle)
 
 set(SOURCE_FILES
     main.cpp

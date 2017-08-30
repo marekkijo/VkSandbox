@@ -22,4 +22,4 @@ if(WIN32)
 endif()
 
 add_subdirectory(00_init)
-add_subdirectory(01_moreInit)
+add_subdirectory(01_helloTriangle)
