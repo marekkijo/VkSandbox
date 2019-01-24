@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 void list_instance_extension_properties() {
     std::uint32_t propertyCount = 0;
     vkEnumerateInstanceExtensionProperties(nullptr, &propertyCount, nullptr);
-    std::cout << propertyCount << " instance extension properties count" << std::endl;
+    std::cout << "Number of extensions: " << propertyCount << std::endl;
 
     if (propertyCount == 0)
         return;
